@@ -1,0 +1,234 @@
+﻿<live_stream_config xmlns="http://provisioning.streamtheworld.com/player/livestream-1.9" version="1.9">
+	<mountpoints>
+		<mountpoint>
+			<status>
+				<status-code>200</status-code>
+				<status-message>OK</status-message>
+			</status>
+			<transports>
+				<transport>http</transport>
+			</transports>
+			<metadata>
+				<shoutcast-v1 enabled="true" mountSuffix="_SC"/>
+				<shoutcast-v2 enabled="false" mountSuffix="_SC"/>
+				<sse-sideband enabled="true" streamSuffix="_SC" metadataSuffix="_SBM"/>
+			</metadata>
+			<servers>
+				<server sid="21303">
+					<ip>21303.live.streamtheworld.com</ip>
+					<ports>
+						<port type="https">443</port>
+					</ports>
+				</server>
+				<server sid="23623">
+					<ip>23623.live.streamtheworld.com</ip>
+					<ports>
+						<port type="https">443</port>
+					</ports>
+				</server>
+				<server sid="25643">
+					<ip>25643.live.streamtheworld.com</ip>
+					<ports>
+						<port type="https">443</port>
+					</ports>
+				</server>
+			</servers>
+			<metrics>
+				<tag name="uuid"/>
+			</metrics>
+			<mount>METRO_FM</mount>
+			<format>FLV</format>
+			<bitrate>64000</bitrate>
+			<media-format container="flv" cuepoints="stwcue" trackScheme="audio">
+				<audio index="0" samplerate="22050" codec="mp3" bitrate="64000" channels="2"/>
+			</media-format>
+			<authentication>0</authentication>
+			<timeout>0</timeout>
+			<send-page-url>0</send-page-url>
+		</mountpoint>
+		<mountpoint>
+			<status>
+				<status-code>200</status-code>
+				<status-message>OK</status-message>
+			</status>
+			<transports>
+				<transport>http</transport>
+			</transports>
+			<metadata>
+				<shoutcast-v1 enabled="true" mountSuffix="_SC"/>
+				<shoutcast-v2 enabled="false" mountSuffix="_SC"/>
+				<sse-sideband enabled="true" streamSuffix="_SC" metadataSuffix="_SBM"/>
+			</metadata>
+			<servers>
+				<server sid="23553">
+					<ip>23553.live.streamtheworld.com</ip>
+					<ports>
+						<port type="https">443</port>
+					</ports>
+				</server>
+				<server sid="22603">
+					<ip>22603.live.streamtheworld.com</ip>
+					<ports>
+						<port type="https">443</port>
+					</ports>
+				</server>
+				<server sid="25433">
+					<ip>25433.live.streamtheworld.com</ip>
+					<ports>
+						<port type="https">443</port>
+					</ports>
+				</server>
+			</servers>
+			<metrics>
+				<tag name="uuid"/>
+			</metrics>
+			<mount>METRO_FMAAC</mount>
+			<format>FLV</format>
+			<bitrate>64000</bitrate>
+			<media-format container="flv" cuepoints="stwcue" trackScheme="audio">
+				<audio index="0" samplerate="44100" codec="heaacv1" bitrate="64000" channels="2"/>
+			</media-format>
+			<authentication>0</authentication>
+			<timeout>0</timeout>
+			<send-page-url>0</send-page-url>
+		</mountpoint>
+		<mountpoint>
+			<status>
+				<status-code>200</status-code>
+				<status-message>OK</status-message>
+			</status>
+			<transports>
+				<transport>http</transport>
+			</transports>
+			<metadata>
+				<shoutcast-v1 enabled="true" mountSuffix="_SC"/>
+				<shoutcast-v2 enabled="false" mountSuffix="_SC"/>
+				<sse-sideband enabled="true" streamSuffix="_SC" metadataSuffix="_SBM"/>
+			</metadata>
+			<servers>
+				<server sid="23563">
+					<ip>23563.live.streamtheworld.com</ip>
+					<ports>
+						<port type="https">443</port>
+					</ports>
+				</server>
+				<server sid="22353">
+					<ip>22353.live.streamtheworld.com</ip>
+					<ports>
+						<port type="https">443</port>
+					</ports>
+				</server>
+				<server sid="19993">
+					<ip>19993.live.streamtheworld.com</ip>
+					<ports>
+						<port type="https">443</port>
+					</ports>
+				</server>
+			</servers>
+			<metrics>
+				<tag name="uuid"/>
+			</metrics>
+			<mount>METRO_FM32AAC</mount>
+			<format>FLV</format>
+			<bitrate>32000</bitrate>
+			<media-format container="flv" cuepoints="stwcue" trackScheme="audio">
+				<audio index="0" samplerate="44100" codec="heaacv2" bitrate="32000" channels="2"/>
+			</media-format>
+			<authentication>0</authentication>
+			<timeout>0</timeout>
+			<send-page-url>0</send-page-url>
+		</mountpoint>
+		<mountpoint>
+			<status>
+				<status-code>200</status-code>
+				<status-message>OK</status-message>
+			</status>
+			<transports>
+				<transport>http</transport>
+			</transports>
+			<metadata>
+				<shoutcast-v1 enabled="true" mountSuffix="_SC"/>
+				<shoutcast-v2 enabled="false" mountSuffix="_SC"/>
+				<sse-sideband enabled="true" streamSuffix="_SC" metadataSuffix="_SBM"/>
+			</metadata>
+			<servers>
+				<server sid="23553">
+					<ip>23553.live.streamtheworld.com</ip>
+					<ports>
+						<port type="https">443</port>
+					</ports>
+				</server>
+				<server sid="22603">
+					<ip>22603.live.streamtheworld.com</ip>
+					<ports>
+						<port type="https">443</port>
+					</ports>
+				</server>
+				<server sid="25433">
+					<ip>25433.live.streamtheworld.com</ip>
+					<ports>
+						<port type="https">443</port>
+					</ports>
+				</server>
+			</servers>
+			<metrics>
+				<tag name="uuid"/>
+			</metrics>
+			<mount>METRO_FM128AAC</mount>
+			<format>FLV</format>
+			<bitrate>128000</bitrate>
+			<media-format container="flv" cuepoints="stwcue" trackScheme="audio">
+				<audio index="0" samplerate="44100" codec="heaacv1" bitrate="128000" channels="2"/>
+			</media-format>
+			<authentication>0</authentication>
+			<timeout>0</timeout>
+			<send-page-url>0</send-page-url>
+		</mountpoint>
+		<mountpoint>
+			<status>
+				<status-code>200</status-code>
+				<status-message>OK</status-message>
+			</status>
+			<transports>
+				<transport>http</transport>
+			</transports>
+			<metadata>
+				<shoutcast-v1 enabled="true" mountSuffix="_SC"/>
+				<shoutcast-v2 enabled="false" mountSuffix="_SC"/>
+				<sse-sideband enabled="true" streamSuffix="_SC" metadataSuffix="_SBM"/>
+			</metadata>
+			<servers>
+				<server sid="25483">
+					<ip>25483.live.streamtheworld.com</ip>
+					<ports>
+						<port type="https">443</port>
+					</ports>
+				</server>
+				<server sid="23613">
+					<ip>23613.live.streamtheworld.com</ip>
+					<ports>
+						<port type="https">443</port>
+					</ports>
+				</server>
+				<server sid="22653">
+					<ip>22653.live.streamtheworld.com</ip>
+					<ports>
+						<port type="https">443</port>
+					</ports>
+				</server>
+			</servers>
+			<metrics>
+				<tag name="uuid"/>
+			</metrics>
+			<mount>METRO_FM_ITUNES</mount>
+			<format>FLV</format>
+			<bitrate>128000</bitrate>
+			<media-format container="flv" cuepoints="stwcue" trackScheme="audio">
+				<audio index="0" samplerate="44100" codec="mp3" bitrate="128000" channels="2"/>
+			</media-format>
+			<authentication>0</authentication>
+			<timeout>0</timeout>
+			<send-page-url>0</send-page-url>
+		</mountpoint>
+	</mountpoints>
+</live_stream_config>
