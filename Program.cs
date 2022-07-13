@@ -8,13 +8,14 @@ namespace ConsoleApp1
     class Program
     {
 
-        static void Main(string[] args)
-        {
-            udp s = new udp();
-            s.Server("0.0.0.0", 443);
+    static void Main(string[] args)
+    {
+        new IPEndPoint(IPAddress.Any, 443);
+        udp s = new udp();
+        s.Server(IPAddress.Any, 443);
 
-            Console.ReadKey();
-        }
+        Console.ReadKey();
+    }
 
     }
 }
